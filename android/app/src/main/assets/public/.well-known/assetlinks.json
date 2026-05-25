@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.cozysanctuary.app",
+      "sha256_cert_fingerprints": [
+        "14:6D:E9:83:C5:EC:37:54:64:01:21:C3:57:1D:8E:53:C6:78:E2:21:28:77:E5:1B:D4:6C:6F:E1:9F:80:BC:85"
+      ]
+    }
+  }
+]

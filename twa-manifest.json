@@ -1,14 +1,14 @@
 {
   "packageId": "com.cozysanctuary.app",
-  "host": "cozy-sanctuary-app-2026.web.app",
+  "host": "cozysanctuary.app",
   "name": "Cozy Sanctuary",
   "shortName": "Sanctuary",
   "themeColor": "#F5F5F2",
   "navigationColor": "#F5F5F2",
   "backgroundColor": "#F5F5F2",
   "startUrl": "/",
-  "iconUrl": "https://cozy-sanctuary-app-2026.web.app/icons/icon-512.png",
-  "maskableIconUrl": "https://cozy-sanctuary-app-2026.web.app/icons/icon-512.png",
+  "iconUrl": "https://cozysanctuary.app/icons/icon-512.png",
+  "maskableIconUrl": "https://cozysanctuary.app/icons/icon-512.png",
   "clockClockwise": false,
   "display": "standalone",
   "orientation": "portrait",
@@ -26,16 +26,16 @@
       "name": "Write Journal",
       "short_name": "Journal",
       "url": "/?view=home",
-      "icon": "https://cozy-sanctuary-app-2026.web.app/icons/icon-192.png"
+      "icon": "https://cozysanctuary.app/icons/icon-192.png"
     },
     {
       "name": "Mindfulness",
       "short_name": "Breathe",
       "url": "/?view=mindfulness",
-      "icon": "https://cozy-sanctuary-app-2026.web.app/icons/icon-192.png"
+      "icon": "https://cozysanctuary.app/icons/icon-192.png"
     }
   ],
-  "webManifestUrl": "https://cozy-sanctuary-app-2026.web.app/manifest.json",
+  "webManifestUrl": "https://cozysanctuary.app/manifest.json",
   "fallbackType": "customuseragent",
   "generatorApp": "bubblewrap"
 }

@@ -480,30 +480,8 @@ export default function App() {
     <div className="min-h-screen w-full bg-[#F5F5F2] text-app-text font-sans flex items-center justify-center p-0 md:p-6 relative select-none overflow-x-hidden">
       
       {/* Main Virtual Smartphone Device (Aesthetic Frame) */}
-      <div className="relative w-full md:w-[412px] md:h-[845px] md:rounded-[48px] md:border-[10px] md:border-[#2C2D35] md:bg-[#F5F5F2] md:shadow-[0_25px_50px_rgba(0,0,0,0.12)] overflow-hidden flex flex-col shrink-0">
+      <div className="relative w-full h-[100dvh] md:w-[412px] md:h-[845px] md:rounded-[48px] md:border-[10px] md:border-[#2C2D35] md:bg-[#F5F5F2] md:shadow-[0_25px_50px_rgba(0,0,0,0.12)] overflow-hidden flex flex-col shrink-0">
         
-        {/* Modern Front Camera Punch-Hole */}
-        <div className="hidden md:block absolute top-[11px] left-1/2 -translate-x-1/2 w-3.5 h-3.5 bg-zinc-900 rounded-full z-[100] border border-zinc-800" />
-
-        {/* Dynamic Android Virtual Status Bar */}
-        <div className="w-full h-11 px-6 flex justify-between items-center bg-[#F5F5F2] text-app-text z-[90] text-xs font-semibold select-none shrink-0 pt-3.5 pb-1">
-          <div className="flex items-center gap-1.5">
-            <span className="font-extrabold tracking-tight text-xs text-[#1A1A1A]">10:17</span>
-            <div className="flex items-center gap-1 opacity-70">
-              <Cloud size={12} className="text-[#1A1A1A]" />
-              <Smartphone size={12} className="text-[#1A1A1A]" />
-              <div className="w-1 h-1 bg-[#1A1A1A] rounded-full" />
-            </div>
-          </div>
-          <div className="flex items-center gap-2 text-[#1A1A1A]">
-            <Signal size={13} className="opacity-80" />
-            <Wifi size={13} className="opacity-80" />
-            <div className="flex items-center relative gap-0.5 bg-black/10 rounded px-1.5 py-0.5 min-w-[28px] h-5 justify-center">
-              <span className="text-[10px] font-black leading-none text-[#1a1a1a]">72</span>
-            </div>
-          </div>
-        </div>
-
         {/* Volume Level Popup Overlay */}
         {showVolumeSlider && (
           <div className="absolute top-16 right-4 bg-zinc-900/95 text-white p-3 rounded-2xl flex items-center gap-2 shadow-xl z-[150] backdrop-blur-sm select-none">

@@ -1,0 +1,8 @@
+{
+	"appId": "com.cozysanctuary.app",
+	"appName": "Cozy Sanctuary",
+	"webDir": "dist",
+	"server": {
+		"androidScheme": "https"
+	}
+}
