@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  
+  --color-app-bg: #F5F5F2;
+  --color-app-card: #FFFFFF;
+  --color-app-text: #1A1A1A;
+  --color-app-muted: #8E8E93;
+  
+  --color-app-lime: #D7FE63;
+  --color-app-pink: #FDE2FF;
+  --color-app-orange: #FFD2A0;
+  --color-app-blue: #B2E2F2;
+  --color-app-lavender: #E2B2F2;
+  
+  --color-cozy-bg: #F5F5F2;
+  --color-cozy-text: #1A1A1A;
+  --color-cozy-accent: #1A1A1A;
+  --color-cozy-muted: #8E8E93;
+  --color-cozy-warm: #FFD2A0;
+}
+
+@layer base {
+  body {
+    @apply bg-app-bg text-app-text font-sans antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+}
+
+.glass-pill {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg rounded-full;
+}
+
+.app-card {
+  @apply bg-white rounded-[2.5rem] p-6 shadow-sm border border-black/5;
+}
+
+.pill-button {
+  @apply px-5 py-2 rounded-full font-medium transition-all active:scale-95;
+}
+
+/* Custom scrollbar for horizontal lists */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

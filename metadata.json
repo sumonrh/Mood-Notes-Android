@@ -1,0 +1,6 @@
+{
+  "name": "Mood Notes",
+  "description": "An Android-themed mood tracking, journaling, and well-being sanctuary with privacy protection, calendar loggers, trend graphs, and interactive corners.",
+  "requestFramePermissions": ["notifications"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
