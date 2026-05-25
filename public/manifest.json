@@ -15,21 +15,22 @@
   ],
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    },
-    {
-      "src": "data:image/svg+xml,%3Csvg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='translate(50, 50) scale(0.65) translate(-50, -50)'%3E%3Crect x='10' y='30' width='80' height='60' rx='25' fill='%23E8F5E9'/%3E%3Cpath d='M10 45L50 10L90 45' stroke='%234CAF50' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='40' y='65' width='20' height='25' rx='5' fill='%234CAF50'/%3E%3Ccircle cx='50' cy='45' r='8' fill='white'/%3E%3Ccircle cx='50' cy='45' r='4' fill='%234CAF50'/%3E%3Cpath d='M75 20C75 20 85 10 95 20C95 30 85 35 75 35C65 35 60 30 60 20C60 10 70 10 75 20Z' fill='%238BC34A'/%3E%3Ccircle cx='20' cy='20' r='3' fill='%23FFD700'/%3E%3Ccircle cx='85' cy='50' r='2' fill='%23FFD700'/%3E%3C/g%3E%3C/svg%3E",
-      "sizes": "192x192",
-      "type": "image/svg+xml"
     }
   ],
   "shortcuts": [
@@ -40,8 +41,9 @@
       "url": "/?view=home",
       "icons": [
         {
-          "src": "data:image/svg+xml,%3Csvg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='translate(50, 50) scale(0.65) translate(-50, -50)'%3E%3Crect x='10' y='30' width='80' height='60' rx='25' fill='%23E8F5E9'/%3E%3Cpath d='M10 45L50 10L90 45' stroke='%234CAF50' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='40' y='65' width='20' height='25' rx='5' fill='%234CAF50'/%3E%3Ccircle cx='50' cy='45' r='8' fill='white'/%3E%3Ccircle cx='50' cy='45' r='4' fill='%234CAF50'/%3E%3Cpath d='M75 20C75 20 85 10 95 20C95 30 85 35 75 35C65 35 60 30 60 20C60 10 70 10 75 20Z' fill='%238BC34A'/%3E%3Ccircle cx='20' cy='20' r='3' fill='%23FFD700'/%3E%3Ccircle cx='85' cy='50' r='2' fill='%23FFD700'/%3E%3C/g%3E%3C/svg%3E",
-          "sizes": "192x192"
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
         }
       ]
     },
@@ -52,8 +54,9 @@
       "url": "/?view=mindfulness",
       "icons": [
         {
-          "src": "data:image/svg+xml,%3Csvg viewBox='0 0 100 100' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform='translate(50, 50) scale(0.65) translate(-50, -50)'%3E%3Crect x='10' y='30' width='80' height='60' rx='25' fill='%23E8F5E9'/%3E%3Cpath d='M10 45L50 10L90 45' stroke='%234CAF50' stroke-width='8' stroke-linecap='round' stroke-linejoin='round'/%3E%3Crect x='40' y='65' width='20' height='25' rx='5' fill='%234CAF50'/%3E%3Ccircle cx='50' cy='45' r='8' fill='white'/%3E%3Ccircle cx='50' cy='45' r='4' fill='%234CAF50'/%3E%3Cpath d='M75 20C75 20 85 10 95 20C95 30 85 35 75 35C65 35 60 30 60 20C60 10 70 10 75 20Z' fill='%238BC34A'/%3E%3Ccircle cx='20' cy='20' r='3' fill='%23FFD700'/%3E%3Ccircle cx='85' cy='50' r='2' fill='%23FFD700'/%3E%3C/g%3E%3C/svg%3E",
-          "sizes": "192x192"
+          "src": "icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
         }
       ]
     }
