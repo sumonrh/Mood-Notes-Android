@@ -52,6 +52,7 @@ import {
   Cloud
 } from 'lucide-react';
 import { Toaster, toast } from 'sonner';
+import GooglePlayConsole from './components/GooglePlayConsole.tsx';
 
 interface MoodEntry {
   date: string;
@@ -85,7 +86,7 @@ interface Profile {
 }
 
 type ViewType = 'home' | 'mindfulness' | 'achievements' | 'music' | 'menu' | 'journal' | 'notes' | 'art' | 'guide';
-type MenuSubView = 'main' | 'account' | 'privacy' | 'notifications';
+type MenuSubView = 'main' | 'account' | 'privacy' | 'notifications' | 'googleplay';
 
 const TRACKS: Track[] = [
   { id: '1', title: 'Rainy Night in Tokyo', artist: 'Lo-fi Beats', duration: '3:45', color: 'bg-app-blue', url: 'https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3' },
@@ -1119,6 +1120,18 @@ export default function App() {
                     </div>
                     <ArrowRight size={20} className="text-app-muted" />
                   </button>
+                  <button 
+                    onClick={() => setMenuSubView('googleplay')}
+                    className="app-card bg-white border border-black/5 flex items-center justify-between p-6 hover:bg-app-bg transition-colors"
+                  >
+                    <div className="flex items-center gap-4">
+                      <div className="w-12 h-12 bg-amber-500/10 rounded-2xl flex items-center justify-center">
+                        <Smartphone size={24} className="text-amber-500" />
+                      </div>
+                      <span className="font-bold cursor-pointer">Google Play Publisher</span>
+                    </div>
+                    <ArrowRight size={20} className="text-app-muted" />
+                  </button>
                 </div>
 
                 {deferredPrompt && (
@@ -1323,6 +1336,10 @@ export default function App() {
                   )}
                 </div>
               </div>
+            )}
+
+            {menuSubView === 'googleplay' && (
+              <GooglePlayConsole onBack={() => setMenuSubView('main')} />
             )}
           </div>
         )}
